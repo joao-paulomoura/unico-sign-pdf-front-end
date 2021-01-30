@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #eeeeec;
+  display: flex;
+ justify-content: center;
+}
+
+.main {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+.header {
+  height: 15%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.upload {
+  width: 320px;
+  height: 100px;
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 3px dotted #ddd;
+}
