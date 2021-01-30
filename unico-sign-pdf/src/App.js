@@ -1,6 +1,9 @@
+import React from 'react';
+import Main from "./screen/Main";
+
 function App() {
   return (
-   <h2>teste</h2>
+   <Main/>
   );
 }
 
